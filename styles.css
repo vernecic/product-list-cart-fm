@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Text", sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: hsl(13, 31%, 94%);
+   
+}
+
+h1 { 
+    margin-bottom: 30px;
+}
+
+.cart-img {
+    width:20px;
+    margin-right: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 25px;
+    margin-right: 50px;
+    
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.itembtn {
+    color: black;
+    background-color: white;
+    width:150px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 8px 16px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantitybtn {
+    background-color: hsl(14, 86%, 42%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    position: relative;
+}
+
+.item-type {
+    margin-top: .5rem;
+    font-size: 14px;
+    color: gray;
+}
+
+.item-price {
+    color:hsl(14, 86%, 42%);
+    font-weight: 600;
+}
+
+.item-name {
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    
+}
+
+.rightside{
+    height: 105vh;
+}
+
+.itembtn {
+    position: relative;
+}
+ 
+ .cart {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 400px;
+    
+  /* position: absolute;
+    left: 68%;
+    top: 20%;  */
+}
+
+
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty img {
+    width: 150px;
+}
+
+.empty p {
+    color: hsl(7, 20%, 60%);
+}
+
+.cart-title {
+    color: hsl(14, 86%, 42%);
+    font-size:22px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* U CARTU */
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.cart-item-name {
+    padding-top: 15px;
+}
+
+.cart-item-ammount {
+    color: grey;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(194, 192, 192, 0.24);
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
