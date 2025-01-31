@@ -43,7 +43,7 @@ cartbtn.forEach((btn) => {
         btn.addEventListener('click', () => {
         const parentDiv = btn.closest('.item');
         const itemQuantity = parentDiv.querySelector(".kol").textContent
-        const quantitybtn = parentDiv.querySelector(".quantitybtn")  // u quantityBtn se sprema .quantityBtn klasa u pojedinom item elementu, esentially zamjena za queryselectorall
+        const quantitybtn = parentDiv.querySelector(".quantitybtn")  // u quantityBtn se sprema .quantityBtn klasa u pojedinom item elementu,(zamjena za queryselectorall[?])
         btn.classList.add("hidden"); 
         
         const itemName = parentDiv.querySelector(".item-name").textContent;

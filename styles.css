@@ -67,6 +67,11 @@ img {
     cursor: pointer;
 }
 
+.cijena {
+    display: flex;
+    gap: 5px;
+}
+
 .quantitybtn {
     background-color: hsl(14, 86%, 42%);
     display: flex;
